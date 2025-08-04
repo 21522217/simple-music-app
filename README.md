@@ -1,4 +1,13 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Audiomack Music Browser
+
+This is a [Next.js](https://nextjs.org) app for browsing public playlists and tracks from [Audiomack](https://audiomack.com) using the [Audiomack Data API](https://audiomack.com/data-api/docs?utm_source=systemexe-research-and-development.com#general).
+
+## Features
+
+- Search for any Audiomack user by username
+- Browse their public playlists
+- View and play tracks from selected playlists
+- Responsive, modern UI
 
 ## Getting Started
 
@@ -14,23 +23,23 @@ pnpm dev
 bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Usage
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+1. Enter an Audiomack username in the input field at the top.
+2. Select a playlist from the dropdown.
+3. Browse and play tracks from the selected playlist.
 
-## Learn More
+No authentication or API key is required for public data.
 
-To learn more about Next.js, take a look at the following resources:
+## Tech Stack
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- [Next.js](https://nextjs.org)
+- [React Query](https://tanstack.com/query/latest)
+- [Tailwind CSS](https://tailwindcss.com)
+- [Audiomack Data API](https://audiomack.com/data-api/docs?utm_source=systemexe-research-and-development.com#general)
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## License
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+MIT
